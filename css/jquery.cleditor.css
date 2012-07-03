@@ -1,0 +1,109 @@
+.cleditorMain {
+    border:1px solid #999;
+    background-color:#2b2b2b;
+    padding:0 1px 1px;
+    }
+
+.cleditorMain iframe {
+    border:none;
+    margin:0;
+    padding:0;
+    }
+
+.cleditorMain textarea {
+    border:none;
+    overflow-y:scroll;
+    font:10pt Arial,Verdana;
+    resize:none;
+    outline:none;
+    margin:0;
+    padding:0;
+    }
+
+.cleditorToolbar {
+    background:url(images/toolbar.gif) repeat;
+    }
+
+.cleditorGroup {
+    float:left;
+    height:45px;
+    }
+
+.cleditorButton {
+    border-radius:5px;
+    float:left;
+    width:35px;
+    height:34px;
+    background:url(../images/buttons.gif);
+    margin:3px 6px 3px 0px;
+    
+    opacity: 0.75;
+    -webkit-box-shadow: 2px 2px 5px black;
+    -webkit-transition: opacity 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+    }
+
+.cleditorButton:hover {
+    opacity:1;
+     -webkit-box-shadow: 0px 0px 5px #1b77cd;
+    }
+
+.cleditorDisabled, .cleditorDisabled:hover {
+    opacity:0.40;
+    filter:alpha(opacity=40);
+    -webkit-box-shadow: 0px 0px 5px black;
+    }
+
+.cleditorDivider {float:left; width:1px; height:35px; margin:4px 10px 4px 0px; background:#5d5d5d;}
+
+.cleditorPopup {
+    border: solid 1px #121211;
+    background-color: #4e4e4e;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding: 2px 15px 5px;
+    color: #dcebff;
+    position:absolute;
+    font:14pt Arial,Verdana;
+    cursor:default;
+    z-index:10000;
+    -webkit-box-shadow: 0px 0px 13px black;
+    }
+
+.cleditorList div {
+padding:2px 4px;
+}
+
+.cleditorList p,.cleditorList h1,.cleditorList h2,.cleditorList h3,.cleditorList h4,.cleditorList h5,.cleditorList h6,.cleditorList font {
+background-color:Transparent;
+margin:0;
+padding:0;
+}
+
+.cleditorColor {
+width:150px;
+padding:1px 0 0 1px;
+}
+
+.cleditorColor div {
+float:left;
+width:14px;
+height:14px;
+margin:0 1px 1px 0;
+}
+
+.cleditorPrompt {
+background-color:#F6F7F9;
+font-size:8.5pt;
+padding:4px;
+}
+
+.cleditorPrompt input,.cleditorPrompt textarea {
+font:8.5pt Arial,Verdana;
+}
+
+.cleditorMsg {
+background-color:#FDFCEE;
+width:150px;
+font-size:8.5pt;
+padding:4px;
+}
